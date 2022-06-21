@@ -4,3 +4,15 @@ pwd(print working directory) --> perintah untuk melihat tempat directory berkerj
 ls --> printah untuk manampilkan list data atau folder yang ada di directory tersebut
 clear --> perintah untuk menghapus semua tulisan di dalam git bash
 git init --> perintah untuk menginisiasi reopsitory
+git status --> perintah untuk mengetahui ada file baru atau perubahan pada repository yang sedang dikerjakan
+cd(hange directory) "namafolder" --> perintah untuk pindah folder susuai nama folder
+git add . --> perintah untuk memasukan file kedalam staging area agar file tesebut dapat di commit
+git config --global user.email"masukaan email" -->perintah memberikan identitas enail pada file
+git config --global user.name "masukan nama" -->perintah memberikan identitas nama pada file
+vim -->perintah masuk ke kode editor vim
+tekan escape lalu ketik ":q!" -->untuk keluar dari vim dan kembali ke git bash
+git commit -m "pesancommit" -->perintah mengcommit
+git log --> perintah untuk melihat commit apa saja yang pernah dilakukan
+git log -3 --> perintah untuk melihat 3 commit terakhir
+git log --"namafile" -->perintah untuk melihat commit apa saja yang dilakukan pada file tersebut
+git checkout "lima digit awal hashcode" --"namafile" --> perintah untuk mengembalikan file yamg tehapus
