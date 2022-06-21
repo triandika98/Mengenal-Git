@@ -11,6 +11,7 @@ git config --global user.email"masukaan email" -->perintah memberikan identitas 
 git config --global user.name "masukan nama" -->perintah memberikan identitas nama pada file
 vim -->perintah masuk ke kode editor vim
 tekan escape lalu ketik ":q!" -->untuk keluar dari vim dan kembali ke git bash
+tekan escape lalu ketik ":wq!" -->untuk keluar dari vim dan menyimpan perubahannya
 git commit -m "pesancommit" -->perintah mengcommit
 git commit -am "pesancommit" --> perintah untuk mengcommit file yang dimodified tanpa meng-add
 git log --> perintah untuk melihat commit apa saja yang pernah dilakukan
@@ -22,4 +23,7 @@ git checkout "lima digit awal hashcode" --"namafile" --> perintah untuk mengemba
 git checkout "namabranch' -->perintah untuk berpindah ke branch sesuai nama
 git branch --> perintah untuk menampilkan percabangan apa saja yang ada pada repository
 git branch "namabranch" --> perintah untuk membuat branch
-git merge
+git branch -d "namaBranchYangInginDiMerge" -->perintah untuk menghapus branch yang sudah di merge
+git branch --merged --> perintah untuk melihat branch apa yang sudah di merge
+git merge "namaFileYangInginDiMerge" --> perintah merge
+
