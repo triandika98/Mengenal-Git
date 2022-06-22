@@ -1,6 +1,6 @@
 ini adalah perintah perintah yang ada di git bash
 git --version --> perintah untuk mengetahui versi git yang digunakan
-pwd(print working directory) --> perintah untuk melihat tempat directory berkerja
+pwd(print working directory) --> perintah untuk melihat alamat tempat directory berkerja
 ls --> printah untuk manampilkan list data atau folder yang ada di directory tersebut
 clear --> perintah untuk menghapus semua tulisan di dalam git bash
 git init --> perintah untuk menginisiasi reopsitory
