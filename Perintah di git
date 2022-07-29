@@ -16,10 +16,12 @@ tekan escape lalu ketik ':wq!' -->untuk keluar dari vim dan menyimpan perubahann
 git commit -m '"pesancommit"' -->perintah mengcommit
 git commit -am '"pesancommit"' --> perintah untuk mengcommit file yang dimodified tanpa meng-add
 git log --> perintah untuk melihat commit apa saja yang pernah dilakukan
+tekan 'q' --> perintah untuk keluar dari kumpulan commit
 git log -3 --> perintah untuk melihat 3 commit terakhir
 git log --'"namafile"' -->perintah untuk melihat commit apa saja yang dilakukan pada file tersebut
 git log --all --decorate --oneline --graph --> perintah menampilkan commit dalam bentuk graph suatu repository
 alias 'namaperintah'='"perintah"' --> perintah untuk membuat namalain suatu perintah
+alias hanya berlaku pada satu sesi, apabila git bash di close, perintah alias akan hilang, dan harus buat lagi
 git checkout "lima digit awal hashcode" --'"namafile"' --> perintah untuk mengembalikan file yamg tehapus
 git checkout 'namabranch' -->perintah untuk berpindah ke branch sesuai nama
 git branch --> perintah untuk menampilkan percabangan apa saja yang ada pada repository
