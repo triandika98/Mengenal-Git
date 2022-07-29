@@ -1,3 +1,11 @@
-membuat cabang dong
-terus lanjutkan
-habis membuat commit aku coba membuat menggabungkan ke dalam cabang utama atau di sebut dengan merge
+cara membuat cabang
+  - git branch 'namaCabangYangAkanDibuat'
+Setelah membuat cabang, kita isi cabang dengan mengcommit sebuah file pada cabang, dan pastikan terlebih dahulu, file yang akan dicommit sudah disimpan pada cabang yang dituju, cara mengcommit sebagai berikut
+  - git -a -m 'isi pesan commit'
+  - git commit -am 'isi pesan commit'; ket : cara khusus untuk file yang dimodified
+kemudian, setelah mengcommit, kita dapat menggabungkan cabang ke dalam cabang utama. Istilahnya disebut merge.
+sebelum merging, pastikan posisi kita sedang pada cabang utama/main branch/master. cara merging cabang sebagai berikut:
+  - git merge 'namaCabangYangInginDigabungkan'
+pada saat penggabungan, biasanya terjadi conflict, conflict adalah ketidaksinkronan antara kedua cabang sehingga terjadi konflik. sehingga kita butuh resolve. conflict resolve dilakukan pada file yang disimpan pada cabang-cabang tersebut.
+Selanjutnya, sesudah melakukan conflict resolve, kita lakukan commit kembali. kemudian lakukan perintah merging kembali.
+Selesai.
