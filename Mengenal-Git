@@ -1,4 +1,10 @@
 Apa itu Git? Git adalah sebuah software yang digunakan untuk merekam perubahan suatu file yang dikhususkan untuk file berupa program
+ada 3 area di repo git
+  - working tree, area dimana kita dapat mengedit file2 dalam folder
+  - staging area, area dimana untuk menyimpan perubahan file-file, untuk nantinya dilakukan commit atau tidak
+  - history, tempat menyimpan file yang sudah di commit
+cara menginisiasi folder biasa menjadi repo git
+  masuk ke folder yang akan dibuat repo git, lalu ketik perintah 'git init' pada git bash
 Bagaimana cara membuat repository di github? klik new file, lalu beri nama, lalu pilih public or privat, klik Mread jika diperlukan,lalu klik create repository
 Bagaimana cara melakukan commit di github? yang pertama beri nama pada commit kemudian deskripsiskan perubahan apa yang telah dilakukan, lalu klik save file
 Bagaimana cara membuat cabang di github? ada dua cara :
