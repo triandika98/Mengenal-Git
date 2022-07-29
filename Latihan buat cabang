@@ -9,3 +9,8 @@ sebelum merging, pastikan posisi kita sedang pada cabang utama/main branch/maste
 pada saat penggabungan, biasanya terjadi conflict, conflict adalah ketidaksinkronan antara kedua cabang sehingga terjadi konflik. sehingga kita butuh resolve. conflict resolve dilakukan pada file yang disimpan pada cabang-cabang tersebut.
 Selanjutnya, sesudah melakukan conflict resolve, kita lakukan commit kembali. kemudian lakukan perintah merging kembali.
 Selesai.
+Ada sebuah kasus yang mana kita ingin membuat cabang pada sebuah commit yang sudah lewat, caranya sebagai berikut:
+pertama, kita cari commit yang dituju. kemudian kita ambil/copy 7 digit address commit. setelah itu kita checkout pada commit tersebut. Caranya sebagi berikut :
+  - git checkout 'tujuDigitCommitAddress'
+berarti kita sekarang berada pada sebuah commit ditandai head , bukan branch, lalu disini kita dapat membuat branch.
+setelah membuat branch, kita arahkan head kita pada branch yang sudah kita buat.
