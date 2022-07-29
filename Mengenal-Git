@@ -1,3 +1,10 @@
 Apa itu Git? Git adalah sebuah software yang digunakan untuk merekam perubahan suatu file yang dikhususkan untuk file berupa program
-Bagaimana cara membuat repository? klik new file, lalu beri nama, lalu pilih public or privat, klik Mread jika diperlukan,lalu klik create repository
-Bagaimana cara melakukan commit? yang pertama beri nama pada commit kemudian deskripsiskan perubahan apa yang telah dilakukan, lalu klik save file
+Bagaimana cara membuat repository di github? klik new file, lalu beri nama, lalu pilih public or privat, klik Mread jika diperlukan,lalu klik create repository
+Bagaimana cara melakukan commit di github? yang pertama beri nama pada commit kemudian deskripsiskan perubahan apa yang telah dilakukan, lalu klik save file
+Bagaimana cara membuat cabang di github? ada dua cara :
+  Cara pertama,ketika kita mengcommit, akan ada dua pilihan, disimpan pada branch pada saat itu atau membuat branch baru. setelah itu pilih yang branch baru.
+  Cara kedua, pada menu utama, klik pada menu branch, anda bisa membuat branch baru di situ
+Bagiamana cara merging di github? tekan compare&pull request pada sebuah cabang, maka akan terbuka window open pull request. github akan memberikan informasi bahwa kedua cabang terjadi conflict atau tidak. setelah mengecek tidak ada conflict, kita isi pesan pull request, dan klik pull request. kemudian masuk ke menu pull request, lalu pilih request nya, kita check apakah sudah oke, jika sudah kita klik merging confirm.
+bagaimana cara melakukan fork di github? ada dua cara :
+  cara pertama, pilih repo orang, kemudian edit, secara otomatis github akan memfork dan membuatkan pada github kita.
+  cara kedua, tekan tombol for yang ada pada reopsitory orang lain.
