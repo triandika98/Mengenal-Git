@@ -5,24 +5,25 @@ ls --> printah untuk manampilkan list data atau folder yang ada di directory ter
 clear --> perintah untuk menghapus semua tulisan di dalam git bash
 git init --> perintah untuk menginisiasi reopsitory
 git status --> perintah untuk mengetahui ada file baru atau perubahan pada repository yang sedang dikerjakan
-cd(hange directory) "namafolder" --> perintah untuk pindah folder susuai nama folder
-git add . --> perintah untuk memasukan file kedalam staging area agar file tesebut dapat di commit
-git config --global user.email"masukaan email" -->perintah memberikan identitas enail pada file
-git config --global user.name "masukan nama" -->perintah memberikan identitas nama pada file
+cd(hange directory) 'namafolder' --> perintah untuk pindah folder susuai nama folder
+git add 'namaFile' --> perintah memasukan file kedalam staging area, khusus file tersebut.
+git add . --> perintah untuk memasukan file kedalam staging area, semua file akan disimpan pada staging area.
+git config --global user.email '"masukaan email"' -->perintah memberikan identitas enail pada file
+git config --global user.name '"masukan nama"' -->perintah memberikan identitas nama pada file
 vim -->perintah masuk ke kode editor vim
-tekan escape lalu ketik ":q!" -->untuk keluar dari vim dan kembali ke git bash
-tekan escape lalu ketik ":wq!" -->untuk keluar dari vim dan menyimpan perubahannya
-git commit -m "pesancommit" -->perintah mengcommit
-git commit -am "pesancommit" --> perintah untuk mengcommit file yang dimodified tanpa meng-add
+tekan escape lalu ketik ':q!' -->untuk keluar dari vim dan kembali ke git bash
+tekan escape lalu ketik ':wq!' -->untuk keluar dari vim dan menyimpan perubahannya
+git commit -m '"pesancommit"' -->perintah mengcommit
+git commit -am '"pesancommit"' --> perintah untuk mengcommit file yang dimodified tanpa meng-add
 git log --> perintah untuk melihat commit apa saja yang pernah dilakukan
 git log -3 --> perintah untuk melihat 3 commit terakhir
-git log --"namafile" -->perintah untuk melihat commit apa saja yang dilakukan pada file tersebut
+git log --'"namafile"' -->perintah untuk melihat commit apa saja yang dilakukan pada file tersebut
 git log --all --decorate --oneline --graph --> perintah menampilkan commit dalam bentuk graph suatu repository
-alias "namaperintah"="perintah" --> perintah untuk membuat namalain suatu perintah
-git checkout "lima digit awal hashcode" --"namafile" --> perintah untuk mengembalikan file yamg tehapus
-git checkout "namabranch' -->perintah untuk berpindah ke branch sesuai nama
+alias 'namaperintah'='"perintah"' --> perintah untuk membuat namalain suatu perintah
+git checkout "lima digit awal hashcode" --'"namafile"' --> perintah untuk mengembalikan file yamg tehapus
+git checkout 'namabranch' -->perintah untuk berpindah ke branch sesuai nama
 git branch --> perintah untuk menampilkan percabangan apa saja yang ada pada repository
-git branch "namabranch" --> perintah untuk membuat branch
+git branch 'namabranch' --> perintah untuk membuat branch
 git branch -d "namaBranchYangInginDiMerge" -->perintah untuk menghapus branch yang sudah di merge
 git branch --merged --> perintah untuk melihat branch apa yang sudah di merge
 git merge "namaFileYangInginDiMerge" --> perintah merge
