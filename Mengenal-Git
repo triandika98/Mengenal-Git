@@ -20,8 +20,27 @@ Cara menghubungkan Github dengan git di local computer
       1. menggunakan HTTPS
       2. menggunakan SSH
   Cara menghubungkan menggunakan HTTPS:
+    Kasus 1 : dari Github ke Git
       - tentukan folder untuk menyimpankan repositorynya
       - klik kanan pada folder tersebut
       - pilih git bash, untuk membuka git bash
       - pada git bash, ketik : git clone 'HTTPS-nya'
       - enter
+      
+     Kasus 2 : dari Git ke Github, di dalam Git sudah ada repo
+     1. buat repo baru pada github dengan nama yang sama dengan repo yang akan dihubungkan ke github
+     2. ketika membuat repo baru, do not checklist add readme file, langsung klik create repository
+     3. kita akan diarahkan cara untuk mengubungkan ke remote, lakukan langkah berikut pada git bash, contoh :
+          git remote add origin https://github.com/triandika98/contoh-repo-connect-to-Github.git
+          git branch -M main
+          git push -u origin main
+     4. selesai
+     
+     Kasus 3 : ada perubahan pada git dan juga perubahan pada Github
+     1. ketik perintah git fetch pada git bash
+     2. git pull
+     3. perbaiki konflik
+     4. lakukan commit file hasil perbaikan konflik
+     5. git push
+     6. selesai
+       
