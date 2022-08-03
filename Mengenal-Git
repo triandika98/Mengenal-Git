@@ -14,3 +14,14 @@ Bagiamana cara merging di github? tekan compare&pull request pada sebuah cabang,
 bagaimana cara melakukan fork di github? ada dua cara :
   cara pertama, pilih repo orang, kemudian edit, secara otomatis github akan memfork dan membuatkan pada github kita.
   cara kedua, tekan tombol for yang ada pada reopsitory orang lain.
+
+Cara menghubungkan Github dengan git di local computer
+  - ada dua cara yaitu :
+      1. menggunakan HTTPS
+      2. menggunakan SSH
+  Cara menghubungkan menggunakan HTTPS:
+      - tentukan folder untuk menyimpankan repositorynya
+      - klik kanan pada folder tersebut
+      - pilih git bash, untuk membuka git bash
+      - pada git bash, ketik : git clone 'HTTPS-nya'
+      - enter
