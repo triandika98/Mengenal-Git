@@ -3,6 +3,7 @@ git --version --> perintah untuk mengetahui versi git yang digunakan
 pwd(print working directory) --> perintah untuk melihat alamat tempat directory berkerja
 ls --> printah untuk manampilkan list data atau folder yang ada di directory tersebut
 clear --> perintah untuk menghapus semua tulisan di dalam git bash
+mkdir 'namafolderBaru' --> perintah membuat folder baru di git bash
 git init --> perintah untuk menginisiasi reopsitory
 git status --> perintah untuk mengetahui ada file baru atau perubahan pada repository yang sedang dikerjakan
 cd(hange directory) 'namafolder' --> perintah untuk pindah folder susuai nama folder
@@ -10,13 +11,14 @@ git add 'namaFile' --> perintah memasukan file kedalam staging area, khusus file
 git add . --> perintah untuk memasukan file kedalam staging area, semua file akan disimpan pada staging area.
 git config --global user.email '"masukaan email"' -->perintah memberikan identitas enail pada file
 git config --global user.name '"masukan nama"' -->perintah memberikan identitas nama pada file
+git confiq --list --> perintah melihat user dan email yang sedang digunakan
 vim -->perintah masuk ke kode editor vim
 tekan escape lalu ketik ':q!' -->untuk keluar dari vim dan kembali ke git bash
 tekan escape lalu ketik ':wq!' -->untuk keluar dari vim dan menyimpan perubahannya
 git commit -m '"pesancommit"' -->perintah mengcommit
 git commit -am '"pesancommit"' --> perintah untuk mengcommit file yang dimodified tanpa meng-add
 git log --> perintah untuk melihat commit apa saja yang pernah dilakukan
-tekan 'q' --> perintah untuk keluar dari kumpulan commit
+tekan ':q' --> perintah untuk keluar dari kumpulan commit
 git log -3 --> perintah untuk melihat 3 commit terakhir
 git log --'"namafile"' -->perintah untuk melihat commit apa saja yang dilakukan pada file tersebut
 git log --all --decorate --oneline --graph --> perintah menampilkan commit dalam bentuk graph suatu repository
@@ -29,4 +31,6 @@ git branch 'namabranch' --> perintah untuk membuat branch
 git branch -d "namaBranchYangInginDiMerge" -->perintah untuk menghapus branch yang sudah di merge
 git branch --merged --> perintah untuk melihat branch apa yang sudah di merge
 git merge "namaFileYangInginDiMerge" --> perintah merge
-
+git remote --> perintah untuk mengetahui nama remote
+git remote -v --> perintah untuk mengetahui nama remote dengan alamat
+git push --> perintah untuk mengupdate remote
