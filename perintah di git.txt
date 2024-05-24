@@ -1,2 +1,13 @@
 pwd --> perintah untuk mengetahui posisi kita pada folder apa
 git init --> perintah untuk membuat folder biasa menjadi repository
+git add <nama file> --> menambahkan file ke staging area  
+  git add .   --> untuk menambahkan semua file yang belum ada pada staging area
+git status --> untuk melihat status pada repository, apakah ada file yang belum tersimpan di staging area
+git config --global user.name <"nama sesuai pada github">  --> untuk membuat pengguna pada git
+git config --global user.email <"email yang digunakan"> --> untuk membuat pengguna pada git
+tekan esc, lalu ketik ':q!'  --> perintah untuk keluar dari vim
+git commit -m "pesan untuk menandai commit yang dilakukan"
+git log --> untuk melihat commit commit apa saja yang sudah kita lakukan
+  git log -3 --> untuk melihat 3 commit terakhir
+  git log -- <nama file> untuk melihat  commit apa saja yang terjadi pada file itu
+git checkout <'5 digit hash text commitnya'> -- <nama file> mengembalikan file yang telah dihapus pada folder
