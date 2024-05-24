@@ -28,7 +28,7 @@ git remote --> perintah untuk melihat nama remote
   git remote add "nama remote" "alamat remote" --> perintah untuk menambahkan remote pada local git
 git push --> perintah untuk menambahkan commit pada remote kita
   git push -u origin master --> menambahkan repo local ke github
-git fecth --> perintah untuk mengecek ada commit apa saja yang ada pada remote
+git fetch --> perintah untuk mengecek ada commit apa saja yang ada pada remote
 git pull --> mengambil commit yang ada pada remote yang terjadi conflik
 mkdir "nama folder yang diinginkan" --> membuat folder lewat git bash
 ls --> perintah untuk melihat ada apa saja pada folder itu
