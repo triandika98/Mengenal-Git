@@ -1,0 +1,6 @@
+cara membuat hal aman web dari github
+1. siapkan folder yang berisi kumpulan koding halaman web
+2. buat repo di github dengan syarat nama : nama akaun git hub kalian.github.io
+3. folder pada perinta 1 dibuat repo pada local git
+4. hubungkan repo local dengan remote
+5. lalu push deh
