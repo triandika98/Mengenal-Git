@@ -31,6 +31,9 @@ git push --> perintah untuk menambahkan commit pada remote kita
 git fecth --> perintah untuk mengecek ada commit apa saja yang ada pada remote
 git pull --> mengambil commit yang ada pada remote yang terjadi conflik
 mkdir "nama folder yang diinginkan" --> membuat folder lewat git bash
+ls --> perintah untuk melihat ada apa saja pada folder itu
+cd "nama folder" --> perintah untuk masuk ke folder itu
+clear --> perintah untuk menghapus pada git bash
 
 
 
