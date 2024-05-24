@@ -6,7 +6,9 @@ git status --> untuk melihat status pada repository, apakah ada file yang belum 
 git config --global user.name <"nama sesuai pada github">  --> untuk membuat pengguna pada git
 git config --global user.email <"email yang digunakan"> --> untuk membuat pengguna pada git
 tekan esc, lalu ketik ':q!'  --> perintah untuk keluar dari vim
-git commit -m "pesan untuk menandai commit yang dilakukan"
+git commit -m "pesan untuk menandai commit yang dilakukan" untuk melakukan commit
+  git commit -am "pesan untuk menandai commit yang dilakukan" --> untuk melakukan commit pada file yang sudah di staging area
+  git commit -a -m "pesan untuk menandai commit yang dilakukan" --> untuk melakukan commit pada file yang sudah di staging area
 git log --> untuk melihat commit commit apa saja yang sudah kita lakukan
   git log -3 --> untuk melihat 3 commit terakhir
   git log -- <nama file> untuk melihat  commit apa saja yang terjadi pada file itu
@@ -19,6 +21,18 @@ git merge <namabranch> --> perintah menggabung cabang
 git branch -d <namacabang yang ingin dihapus>  --> perintah untuk menghapus cabang
 git branch -D <namacabang yang ingin dihapus> --> perintah menghapus cabang tanpa diperhatikan sudah di merge atau belum
 git branch --merged --> perintah untuk melihat cabang yang sudah di gabung
+clone dengan HTTPS
+  git clone "alamat source" --. perintah untuk mengclone repository yang ada di github
+git remote --> perintah untuk melihat nama remote
+  git remote -v --> perintah untuk melihat alamat remote
+  git remote add "nama remote" "alamat remote" --> perintah untuk menambahkan remote pada local git
+git push --> perintah untuk menambahkan commit pada remote kita
+  git push -u origin master --> menambahkan repo local ke github
+git fecth --> perintah untuk mengecek ada commit apa saja yang ada pada remote
+git pull --> mengambil commit yang ada pada remote yang terjadi conflik
+mkdir "nama folder yang diinginkan" --> membuat folder lewat git bash
+
+
 
 
 
