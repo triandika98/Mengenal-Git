@@ -1,0 +1,11 @@
+contoh kasus melakukan repo orang ke github kita(forking) dan kita memasukan ke computer local kita, dan saya ingin selalu mengetahui update dari repo asli
+1. lakukan fork untuk repo yang diinginkan
+2. kemudian clone lewat https
+3.ketik perintah git clone "url https nya"
+4. cek remote
+5. tambahkan remote baru dengan perintah git remote add "nama remote" "url remotenya"
+
+kasus repo asli update dan kita ingin github kita dan local kita update juga
+1. git fetch
+2. git local kita harus di merge
+3. git push -u origin master
