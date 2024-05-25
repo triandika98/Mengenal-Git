@@ -1,0 +1,3 @@
+git rebase adalah proses mergr yang tidak menambah commkit baru agar tidak kebanyakan commit, agra kita lebih mudah mentrack commit
+git rebase adalah perintah agar pada saat mau merge, merge yang kita lakukan yaitu fast-forward merge bukan three-way merge
+branch commit yang ketinggalan perlu di rebase
