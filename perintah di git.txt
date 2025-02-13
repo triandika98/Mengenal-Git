@@ -36,6 +36,8 @@ mkdir "nama folder yang diinginkan" --> membuat folder lewat git bash
 ls --> perintah untuk melihat ada apa saja pada folder itu
 cd "nama folder" --> perintah untuk masuk ke folder itu
 clear --> perintah untuk menghapus pada git bash
+untuk membuat github pages kita harus membuat repo dengan nama
+  nama reponya : "'namaakun'.github.io"
 
 
 
