@@ -4,3 +4,10 @@ cara membuat hal aman web dari github
 3. folder pada perinta 1 dibuat repo pada local git
 4. hubungkan repo local dengan remote
 5. lalu push deh
+
+untuk menambahkan url pada repo
+  1. pilih settings
+  2. lalu scroll kebawah cari github pages
+  3. pilih branch yang akan ditampilkan
+  4. isi tema jika repo tak punya halaman tampil
+  5. anda juga bisa custom domainnya
