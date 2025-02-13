@@ -27,6 +27,7 @@ clone dengan HTTPS
 git remote --> perintah untuk melihat nama remote
   git remote -v --> perintah untuk melihat alamat remote
   git remote add "nama remote" "alamat remote" --> perintah untuk menambahkan remote pada local git
+    eg : git remote add origin https://github.com/triandika98/triandik98/github.io.git
 git push --> perintah untuk menambahkan commit pada remote kita
   git push -u origin master --> menambahkan repo local ke github
   git push origin --delete <nama cabang> --> perintah untuk menghapus branch pada remote lewat git bash
